@@ -23,9 +23,9 @@ and associated resources to simulate and develop with the GRx robot using popula
 - **Issac Gym**: Support for NVIDIA Isaac Gym for reinforcement learning and robotics research.
 - **Isaac Sim**: Support for NVIDIA Isaac Sim for high-fidelity simulation.
 
-## Model Display
+## Model Verification
 
-To display the model, you can use the `urdf-viz` tool to visualize the robot in 3D.
+To verify the model, you can use the `urdf-viz` tool to visualize the robot in 3D.
 
 - https://github.com/openrr/urdf-viz
 
@@ -48,6 +48,13 @@ urdf-viz GR1T1.urdf
 cd ./GR1/GR1T2/urdf
 urdf-viz GR1T2.urdf
 ```
+
+## MJCF Conversion
+
+If you are interested in converting the URDF files to MuJoCo MJCF format, you can refer to the following repository:
+
+- [Wiki-MJCF in Github](https://github.com/FFTAI/wiki-mjcf/)
+- [Wiki-MJCF in Gitee](https://gitee.com/FourierIntelligence/wiki-mjcf/)
 
 ---
 
