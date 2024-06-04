@@ -36,7 +36,7 @@
         <!--                    xyz="0 0 0.0"-->
         <!--                    rpy="0 0 0"/>-->
         <!--            <geometry>-->
-        <!--                <cylinder length="0.1" radius="0.1"/>-->
+        <!--                <capsule length="0.1" radius="0.1"/>-->
         <!--            </geometry>-->
         <!--        </collision>-->
         <!-- <origin
@@ -198,7 +198,7 @@
                     xyz="0 0 -0.15"
                     rpy="0 0 0"/>
             <geometry>
-                <cylinder length="0.25" radius="0.05"/>
+                <capsule length="0.25" radius="0.05"/>
             </geometry>
         </collision>
         <!-- <origin
@@ -262,7 +262,7 @@
                     xyz="0 0 -0.15"
                     rpy="0 0 0"/>
             <geometry>
-                <cylinder length="0.2" radius="0.05"/>
+                <capsule length="0.2" radius="0.05"/>
             </geometry>
         </collision>
         <!-- <origin
@@ -391,13 +391,13 @@
         <collision name="l_foot_1">
             <origin rpy="0 1.5708 0" xyz="0.05 0.02 -0.035"/>
             <geometry>
-                <cylinder length="0.24" radius="0.02"/>
+                <capsule length="0.24" radius="0.02"/>
             </geometry>
         </collision>
         <collision name="l_foot_2">
             <origin rpy="0 1.5708 0" xyz="0.05 -0.02 -0.035"/>
             <geometry>
-                <cylinder length="0.24" radius="0.02"/>
+                <capsule length="0.24" radius="0.02"/>
             </geometry>
         </collision>
     </link>
@@ -570,7 +570,7 @@
                     xyz="0 0 -0.15"
                     rpy="0 0 0"/>
             <geometry>
-                <cylinder length="0.25" radius="0.05"/>
+                <capsule length="0.25" radius="0.05"/>
             </geometry>
         </collision>
         <!-- <origin
@@ -634,7 +634,7 @@
                     xyz="0 0 -0.15"
                     rpy="0 0 0"/>
             <geometry>
-                <cylinder length="0.2" radius="0.05"/>
+                <capsule length="0.2" radius="0.05"/>
             </geometry>
         </collision>
         <!-- <origin
@@ -763,13 +763,13 @@
         <collision name="r_foot_1">
             <origin rpy="0 1.5708 0" xyz="0.05 0.02 -0.035"/>
             <geometry>
-                <cylinder length="0.24" radius="0.02"/>
+                <capsule length="0.24" radius="0.02"/>
             </geometry>
         </collision>
         <collision name="r_foot_2">
             <origin rpy="0 1.5708 0" xyz="0.05 -0.02 -0.035"/>
             <geometry>
-                <cylinder length="0.24" radius="0.02"/>
+                <capsule length="0.24" radius="0.02"/>
             </geometry>
         </collision>
     </link>
@@ -821,14 +821,14 @@
                         rgba="0.752941176470588 0.752941176470588 0.752941176470588 1"/>
             </material>
         </visual>
-        <!--        <collision>-->
-        <!--            <origin-->
-        <!--                    xyz="0 0 -0.06"-->
-        <!--                    rpy="1.57 0 0"/>-->
-        <!--            <geometry>-->
-        <!--                <cylinder length="0.29" radius="0.039"/>-->
-        <!--            </geometry>-->
-        <!--        </collision>-->
+        <collision>
+            <origin
+                    xyz="0 0 -0.05"
+                    rpy="0 0 0"/>
+            <geometry>
+                <capsule length="0.05" radius="0.05"/>
+            </geometry>
+        </collision>
         <!--      &lt;!&ndash; <origin-->
         <!--        xyz="0 0 0"-->
         <!--        rpy="0 0 0" />-->
@@ -945,10 +945,10 @@
         </visual>
         <collision>
             <origin
-                    xyz="0 0 0.2"
+                    xyz="0 0 0.15"
                     rpy="0 0 0"/>
             <geometry>
-                <cylinder length="0.25" radius="0.1"/>
+                <capsule length="0.1" radius="0.1"/>
             </geometry>
         </collision>
         <!-- <collision>
@@ -1316,7 +1316,7 @@
                     xyz="0 0 -0.05"
                     rpy="0 0 0"/>
             <geometry>
-                <cylinder length="0.11" radius="0.03"/>
+                <capsule length="0.11" radius="0.03"/>
             </geometry>
         </collision>
         <!-- <origin
@@ -1438,7 +1438,7 @@
                     xyz="0 0 -0.08"
                     rpy="0 0 0"/>
             <geometry>
-                <cylinder length="0.17" radius="0.035"/>
+                <capsule length="0.17" radius="0.035"/>
             </geometry>
         </collision>
         <!-- <origin
@@ -1560,7 +1560,7 @@
                     xyz="0 0 -0.07"
                     rpy="0 0 0"/>
             <geometry>
-                <sphere radius="0.05"/>
+                <sphere radius="0.04"/>
             </geometry>
         </collision>
         <!-- <origin
@@ -1746,7 +1746,7 @@
                     xyz="0 0 -0.05"
                     rpy="0 0 0"/>
             <geometry>
-                <cylinder length="0.11" radius="0.03"/>
+                <capsule length="0.11" radius="0.03"/>
             </geometry>
         </collision>
         <!-- <origin
@@ -1868,7 +1868,7 @@
                     xyz="0 0 -0.08"
                     rpy="0 0 0"/>
             <geometry>
-                <cylinder length="0.17" radius="0.035"/>
+                <capsule length="0.17" radius="0.035"/>
             </geometry>
         </collision>
         <!-- <origin
@@ -1990,7 +1990,7 @@
                     xyz="0 0 -0.07"
                     rpy="0 0 0"/>
             <geometry>
-                <sphere radius="0.05"/>
+                <sphere radius="0.04"/>
             </geometry>
         </collision>
         <!-- <origin
