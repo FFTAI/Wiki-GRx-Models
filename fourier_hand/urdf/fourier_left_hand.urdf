@@ -42,7 +42,7 @@
       </geometry>
     </collision>
   </link>
-  <joint
+  <!-- <joint
     name="l_hand_base_joint"
     type="fixed">
     <origin
@@ -54,7 +54,7 @@
       link="l_hand_base_link" />
     <axis
       xyz="0 0 0" />
-  </joint>
+  </joint> -->
   <link
     name="L_thumb_proximal_base">
     <inertial>
