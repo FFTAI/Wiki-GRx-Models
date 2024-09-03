@@ -23,6 +23,29 @@ and associated resources to simulate and develop with the GRx robot using popula
 - **Issac Gym**: Support for NVIDIA Isaac Gym for reinforcement learning and robotics research.
 - **Isaac Sim**: Support for NVIDIA Isaac Sim for high-fidelity simulation.
 
+
+# Name table of robot for clarify
+> *Notice: There are two types of dexterous hand, fourier hand and inspire hand. Select the correct `urdf` with the hand you have.*
+
+| Product Name |  Code Name |
+| :----------: | :--------: |
+|   GR-1       |  GR1T1 with dexterous hand |
+|   GR-1L      |  GR1T1 with fourier jaw |
+|   GR-1 Pro   |  GR1T2 with dexterous hand |
+|   GR-1L Pro  |  GR1T2 with fourier jaw |
+
+
+# Model List
+- GR1T1
+    - GR1T1_jaw: The `urdf` for GR1T1 with foueire jaw.
+    - GR1T1_fourier_hand: The `urdf` for GR1T1 with fourier hand.
+    - GR1T1_inspire_hand: The `urdf` for GR1T1 with inspire hand.
+- GR1T2:
+    - GR1T2_jaw: The `urdf` for GR1T2 with fourier jaw.
+    - GR1T2_fourier_hand: The `urdf` for GR1T2 with fourier hand.
+    - GR1T2_inspire_hand: The `urdf` for GR1T2 with inspire hand.
+
+
 ## Model Verification
 
 To verify the model, you can use the `urdf-viz` tool to visualize the robot in 3D.
@@ -40,14 +63,16 @@ cargo install urdf-viz
 ### Display the Model
 
 ```bash
-# Display the GR1T1 model
-cd ./GR1/GR1T1/urdf
-urdf-viz GR1T1.urdf
+# Display the GR1T1 model with fourier hand
+cd ./GRX/GR1/GR1T1/URDF/urdf
+urdf-viz GR1T1_fourier_hand.urdf
 
-# Display the GR1T2 model
-cd ./GR1/GR1T2/urdf
-urdf-viz GR1T2.urdf
+# Display the GR1T2 model with fourier hand
+cd ./GRX/GR1/GR1T2/URDF/urdf
+urdf-viz GR1T2_fourier_hand.urdf
 ```
+
+
 
 ## MJCF Conversion
 
