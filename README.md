@@ -24,7 +24,7 @@ and associated resources to simulate and develop with the GRx robot using popula
 - **Isaac Sim**: Support for NVIDIA Isaac Sim for high-fidelity simulation.
 
 
-# Name table of robot for clarify
+## Name table of robot for clarify
 > *Notice: There are two types of dexterous hand, fourier hand and inspire hand. Select the correct `urdf` with the hand you have.*
 
 | Product Name |  Code Name |
@@ -35,7 +35,7 @@ and associated resources to simulate and develop with the GRx robot using popula
 |   GR-1L Pro  |  GR1T2 with fourier jaw |
 
 
-# Model List
+## Model List
 - GR1T1
     - GR1T1_jaw: The `urdf` for GR1T1 with foueire jaw.
     - GR1T1_fourier_hand: The `urdf` for GR1T1 with fourier hand.
