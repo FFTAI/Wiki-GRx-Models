@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- 08312024ver1 -->
+<!-- 09062024ver1 -->
 
 <robot
   name="GR1T1_jaw_simple_coll">
@@ -1191,7 +1191,7 @@
         xyz="-2.923E-5 0.002124 -0.06117"
         rpy="0 0 0" />
       <mass
-        value="0.73" />
+        value="0.89" />
       <inertia
         ixx="0.001867"
         ixy="3.1E-7"
@@ -1588,7 +1588,7 @@
         xyz="3.90E-5 -0.00212 -0.06117"
         rpy="0 0 0" />
       <mass
-        value="0.73" />
+        value="0.89" />
       <inertia
         ixx="0.001866"
         ixy="3E-7"
