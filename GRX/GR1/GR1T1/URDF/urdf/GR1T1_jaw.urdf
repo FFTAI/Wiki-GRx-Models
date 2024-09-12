@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- 09062024ver1 -->
+<!-- 09122024ver1 -->
 
 <robot
   name="GR1T1_jaw_simple_coll">
@@ -1280,7 +1280,7 @@
     </collision> -->
   </link>
   <joint
-    name="left_wrist_roll_link"
+    name="left_wrist_roll_joint"
     type="revolute">
     <origin
       xyz="0 0 -0.18765"
