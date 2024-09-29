@@ -1,4 +1,6 @@
 **2024-09-29**
+- GR1T1_fourier_hand: The `urdf` updated since fourier_hand `urdf` updated with fixed axis
+- GR1T2_fourier_hand: The `urdf` updated since fourier_hand `urdf` updated with fixed axis
 - GR1T2_jaw: The `urdf` added `end_effector_link` to align with other `urdf`
 - GR1T1_jaw: The `urdf` added `end_effector_link` to align with other `urdf`
 

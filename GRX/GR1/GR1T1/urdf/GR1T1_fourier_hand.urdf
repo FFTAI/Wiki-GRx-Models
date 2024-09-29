@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- 09122024ver1 -->
+<!-- 09292024-1 -->
 
 <robot
-  name="GR1T1_simple_coll">
+  name="GR1T1_fourier_hand">
   <link
     name="base_link">
     <inertial>
@@ -1378,17 +1378,17 @@
     name="l_hand_base_link">
     <inertial>
       <origin
-        xyz="-0.000341219118062869 -0.00502824269426091 -0.0449280446308069"
+        xyz="-0.00034718 -0.0050378 -0.044954"
         rpy="0 0 0" />
       <mass
-        value="0.099947" />
+        value="0.09995" />
       <inertia
-        ixx="0.00030651"
-        ixy="-2.324E-05"
-        ixz="-3.2E-07"
-        iyy="0.0004015"
-        iyz="3.1E-07"
-        izz="0.00019218" />
+        ixx="301.1304"
+        ixy="-0.3603"
+        ixz="-0.2435"
+        iyy="406.8824"
+        iyz="0.3694"
+        izz="192.1823" />
     </inertial>
     <visual>
       <origin
@@ -1401,7 +1401,7 @@
       <material
         name="">
         <color
-          rgba="0.866666666666667 0.866666666666667 0.890196078431372 1" />
+          rgba="0.86667 0.86667 0.8902 1" />
       </material>
     </visual>
     <collision>
@@ -1418,7 +1418,7 @@
     name="l_hand_base_joint"
     type="fixed">
     <origin
-      xyz="-0.00143750472419189 -5.94019892983799E-05 -0.0210000216633744"
+      xyz="-0.0014375 -5.9402E-05 -0.021"
       rpy="0 0 0" />
     <parent
       link="left_end_effector_link" />
@@ -1431,17 +1431,17 @@
     name="L_thumb_proximal_base">
     <inertial>
       <origin
-        xyz="0.0110171865188146 -2.47672281110389E-05 0.000776047913919345"
+        xyz="0.011017 -2.4767E-05 0.00077605"
         rpy="0 0 0" />
       <mass
         value="0.0094853" />
       <inertia
-        ixx="3.2E-07"
-        ixy="1.3E-07"
-        ixz="-4E-08"
-        iyy="9.2E-07"
-        iyz="0"
-        izz="9.7E-07" />
+        ixx="0.299"
+        ixy="0.0051"
+        ixz="-0.0415"
+        iyy="0.9499"
+        iyz="-0.0055"
+        izz="0.9696" />
     </inertial>
     <visual>
       <origin
@@ -1454,7 +1454,7 @@
       <material
         name="">
         <color
-          rgba="0.890196078431372 0.890196078431372 0.913725490196078 1" />
+          rgba="0.8902 0.8902 0.91373 1" />
       </material>
     </visual>
     <collision>
@@ -1471,8 +1471,8 @@
     name="L_thumb_proximal_yaw_joint"
     type="revolute">
     <origin
-      xyz="0.0220003063830263 -0.0154982849769962 -0.0250926444440346"
-      rpy="0 -1.22105233317497E-05 0" />
+      xyz="0.022 -0.015498 -0.025093"
+      rpy="0 -1.2211E-05 0" />
     <parent
       link="l_hand_base_link" />
     <child
@@ -1489,17 +1489,17 @@
     name="L_thumb_proximal">
     <inertial>
       <origin
-        xyz="0.0312833670370602 0.000740495699468297 -2.32089545953995E-05"
+        xyz="0.031275 0.00074132 -2.2831E-05"
         rpy="0 0 0" />
       <mass
         value="0.033247" />
       <inertia
-        ixx="1.214E-05"
-        ixy="4.25E-06"
-        ixz="-1E-07"
-        iyy="3.292E-05"
-        iyz="3E-08"
-        izz="3.183E-05" />
+        ixx="11.3073"
+        ixy="0.0441"
+        ixz="-0.1016"
+        iyy="33.755"
+        iyz="0.011"
+        izz="31.8346" />
     </inertial>
     <visual>
       <origin
@@ -1512,7 +1512,7 @@
       <material
         name="">
         <color
-          rgba="0.866666666666667 0.866666666666667 0.890196078431372 1" />
+          rgba="0.86667 0.86667 0.8902 1" />
       </material>
     </visual>
     <collision>
@@ -1530,7 +1530,7 @@
     type="revolute">
     <origin
       xyz="0.02175 0 0"
-      rpy="-1.57072797771317 0 0" />
+      rpy="-1.5707 0 0" />
     <parent
       link="L_thumb_proximal_base" />
     <child
@@ -1547,17 +1547,17 @@
     name="L_thumb_distal">
     <inertial>
       <origin
-        xyz="0.0132168665788391 -0.00326175003895993 -5.06101471370313E-07"
+        xyz="0.013217 -0.0032618 -5.265E-07"
         rpy="0 0 0" />
       <mass
         value="0.020321" />
       <inertia
-        ixx="9.7E-07"
-        ixy="2.7E-07"
-        ixz="9E-08"
-        iyy="2.29E-06"
-        iyz="-2E-08"
-        izz="2.48E-06" />
+        ixx="0.9159"
+        ixy="0"
+        ixz="0.0904"
+        iyy="2.3382"
+        iyz="0"
+        izz="2.4793" />
     </inertial>
     <visual>
       <origin
@@ -1570,7 +1570,7 @@
       <material
         name="">
         <color
-          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -1587,8 +1587,8 @@
     name="L_thumb_distal_joint"
     type="revolute">
     <origin
-      xyz="0.0615493701717829 0.00746157030770586 0"
-      rpy="0 0 1.22106056547031E-05" />
+      xyz="0.061549 0.0074616 0"
+      rpy="0 0 1.221E-05" />
     <parent
       link="L_thumb_proximal" />
     <child
@@ -1605,6 +1605,7 @@
       multiplier="0.974"
       offset="0" />
   </joint>
+
 
   <link name="L_thumb_tip">
     <visual>
@@ -1625,21 +1626,23 @@
     <origin rpy="0 0 0" xyz="0.031 0 0" />
   </joint>
 
+
+
   <link
     name="L_index_proximal">
     <inertial>
       <origin
-        xyz="0.00960018118915809 0.00044353185078605 2.958628109756E-06"
+        xyz="0.0095993 0.00044337 2.962E-06"
         rpy="0 0 0" />
       <mass
-        value="0.019118" />
+        value="0.019117" />
       <inertia
-        ixx="3.83E-06"
-        ixy="3E-08"
-        ixz="1.8E-07"
-        iyy="3.72E-06"
-        iyz="-8E-08"
-        izz="8.7E-07" />
+        ixx="3.8413"
+        ixy="0.0061"
+        ixz="0.1572"
+        iyy="3.7145"
+        iyz="-0.1228"
+        izz="0.8719" />
     </inertial>
     <visual>
       <origin
@@ -1652,7 +1655,7 @@
       <material
         name="">
         <color
-          rgba="0.866666666666667 0.866666666666667 0.890196078431372 1" />
+          rgba="0.86667 0.86667 0.8902 1" />
       </material>
     </visual>
     <collision>
@@ -1669,8 +1672,8 @@
     name="L_index_proximal_joint"
     type="revolute">
     <origin
-      xyz="0.026869067504082 -0.0122934392405636 -0.0959894118552304"
-      rpy="0.00130566300740641 1.51842419415245 0.00130387280614764" />
+      xyz="0.026869 -0.012293 -0.095989"
+      rpy="0.0013057 1.5184 0.0013039" />
     <parent
       link="l_hand_base_link" />
     <child
@@ -1687,17 +1690,17 @@
     name="L_index_intermediate">
     <inertial>
       <origin
-        xyz="0.0180093666798108 0.00300055705134525 -8.82089827167198E-06"
+        xyz="0.018004 0.0030004 -9.3048E-06"
         rpy="0 0 0" />
       <mass
-        value="0.012927" />
+        value="0.012925" />
       <inertia
-        ixx="2.03E-06"
-        ixy="2E-08"
-        ixz="1.4E-07"
-        iyy="2.01E-06"
-        iyz="-2.3E-07"
-        izz="3.8E-07" />
+        ixx="2.034"
+        ixy="0.0131"
+        ixz="0.0865"
+        iyy="2.006"
+        iyz="-0.2515"
+        izz="0.3766" />
     </inertial>
     <visual>
       <origin
@@ -1710,7 +1713,7 @@
       <material
         name="">
         <color
-          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -1727,8 +1730,8 @@
     name="L_index_intermediate_joint"
     type="revolute">
     <origin
-      xyz="0.0315316061985493 -0.00545507200132231 0"
-      rpy="0 0 -6.82553680074393E-05" />
+      xyz="0.031532 -0.0054551 0"
+      rpy="0 0 -6.8255E-05" />
     <parent
       link="L_index_proximal" />
     <child
@@ -1746,7 +1749,6 @@
       offset="0" />
   </joint>
 
-
   <link name="L_index_tip">
     <visual>
       <origin
@@ -1763,26 +1765,25 @@
   <joint name="L_index_tip_joint" type="fixed">
     <parent link="L_index_intermediate" />
     <child link="L_index_tip" />
-    <origin rpy="0 0 0" xyz="0.038 -0.0038 0" />
+    <origin rpy="0 0 0" xyz="0.038 -0.001 0" />
   </joint>
 
 
-  
   <link
     name="L_middle_proximal">
     <inertial>
       <origin
-        xyz="0.00955705245388191 0.00071918425895251 3.00382438536695E-06"
+        xyz="0.0095565 0.00071875 2.9504E-06"
         rpy="0 0 0" />
       <mass
         value="0.019118" />
       <inertia
-        ixx="3.84E-06"
-        ixy="3E-08"
-        ixz="1E-08"
-        iyy="3.73E-06"
-        iyz="-6E-08"
-        izz="8.6E-07" />
+        ixx="3.8487"
+        ixy="-0.0004"
+        ixz="0.0012"
+        iyy="3.7212"
+        iyz="-0.0607"
+        izz="0.8559" />
     </inertial>
     <visual>
       <origin
@@ -1795,7 +1796,7 @@
       <material
         name="">
         <color
-          rgba="0.890196078431372 0.890196078431372 0.913725490196078 1" />
+          rgba="0.8902 0.8902 0.91373 1" />
       </material>
     </visual>
     <collision>
@@ -1812,8 +1813,8 @@
     name="L_middle_proximal_joint"
     type="revolute">
     <origin
-      xyz="0.00850119653118567 -0.0122933023251572 -0.0979925903933238"
-      rpy="1.39401189702948 1.57072689557984 1.3940118966122" />
+      xyz="0.0085012 -0.012293 -0.097993"
+      rpy="1.394 1.5707 1.394" />
     <parent
       link="l_hand_base_link" />
     <child
@@ -1830,17 +1831,17 @@
     name="L_middle_intermediate">
     <inertial>
       <origin
-        xyz="0.0212893549719316 0.00408289770373668 -9.13198765574441E-06"
+        xyz="0.021282 0.0040844 -9.9839E-06"
         rpy="0 0 0" />
       <mass
         value="0.015352" />
       <inertia
-        ixx="3.29E-06"
+        ixx="3.2904"
         ixy="0"
-        ixz="5E-08"
-        iyy="3.28E-06"
-        iyz="-2.2E-07"
-        izz="4.1E-07" />
+        ixz="-0.0006"
+        iyy="3.2835"
+        iyz="-0.2223"
+        izz="0.4143" />
     </inertial>
     <visual>
       <origin
@@ -1853,7 +1854,7 @@
       <material
         name="">
         <color
-          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -1870,8 +1871,8 @@
     name="L_middle_intermediate_joint"
     type="revolute">
     <origin
-      xyz="0.0316616941629316 -0.00464081056852417 0"
-      rpy="0 0 -6.83490817261459E-05" />
+      xyz="0.031662 -0.0046408 0"
+      rpy="0 0 -6.8349E-05" />
     <parent
       link="L_middle_proximal" />
     <child
@@ -1906,7 +1907,7 @@
   <joint name="L_middle_tip_joint" type="fixed">
     <parent link="L_middle_intermediate" />
     <child link="L_middle_tip" />
-    <origin rpy="0 0 0" xyz="0.045 -0.0032 0" />
+    <origin rpy="0 0 0" xyz="0.045 0.0005 0" />
   </joint>
 
 
@@ -1914,17 +1915,17 @@
     name="L_ring_proximal">
     <inertial>
       <origin
-        xyz="0.00960002708086655 0.000443602585259689 3.01251546439701E-06"
+        xyz="0.0095995 0.00044318 2.9626E-06"
         rpy="0 0 0" />
       <mass
-        value="0.019117" />
+        value="0.019118" />
       <inertia
-        ixx="3.84E-06"
-        ixy="2E-08"
-        ixz="-1.2E-07"
-        iyy="3.72E-06"
-        iyz="-1.5E-07"
-        izz="8.7E-07" />
+        ixx="3.8416"
+        ixy="-0.0068"
+        ixz="-0.1549"
+        iyy="3.7145"
+        iyz="-0.1228"
+        izz="0.8716" />
     </inertial>
     <visual>
       <origin
@@ -1937,7 +1938,7 @@
       <material
         name="">
         <color
-          rgba="0.890196078431372 0.890196078431372 0.913725490196078 1" />
+          rgba="0.8902 0.8902 0.91373 1" />
       </material>
     </visual>
     <collision>
@@ -1954,8 +1955,8 @@
     name="L_ring_proximal_joint"
     type="revolute">
     <origin
-      xyz="-0.0099599699075906 -0.012293306060256 -0.0979379429013024"
-      rpy="3.14028638202668 1.51844861517835 3.14028817139281" />
+      xyz="-0.00996 -0.012293 -0.097938"
+      rpy="3.1403 1.5184 3.1403" />
     <parent
       link="l_hand_base_link" />
     <child
@@ -1972,17 +1973,17 @@
     name="L_ring_intermediate">
     <inertial>
       <origin
-        xyz="0.0180097013870772 0.00300008137097776 -8.39742864479354E-06"
+        xyz="0.018004 0.0030008 -8.9222E-06"
         rpy="0 0 0" />
       <mass
-        value="0.012926" />
+        value="0.012927" />
       <inertia
-        ixx="2.04E-06"
-        ixy="0"
-        ixz="-3E-08"
-        iyy="2E-06"
-        iyz="-2.6E-07"
-        izz="3.8E-07" />
+        ixx="2.0338"
+        ixy="-0.0132"
+        ixz="-0.0877"
+        iyy="2.006"
+        iyz="-0.2515"
+        izz="0.3767" />
     </inertial>
     <visual>
       <origin
@@ -1995,7 +1996,7 @@
       <material
         name="">
         <color
-          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -2012,8 +2013,8 @@
     name="L_ring_intermediate_joint"
     type="revolute">
     <origin
-      xyz="0.0315316061985493 -0.00545507200132236 0"
-      rpy="0 0 -6.82554553643455E-05" />
+      xyz="0.031532 -0.0054551 0"
+      rpy="0 0 -6.8255E-05" />
     <parent
       link="L_ring_proximal" />
     <child
@@ -2048,7 +2049,7 @@
   <joint name="L_ring_tip_joint" type="fixed">
     <parent link="L_ring_intermediate" />
     <child link="L_ring_tip" />
-    <origin rpy="0 0 0" xyz="0.038 -0.0038 0" />
+    <origin rpy="0 0 0" xyz="0.038 -0.002 0" />
   </joint>
 
 
@@ -2056,17 +2057,17 @@
     name="L_pinky_proximal">
     <inertial>
       <origin
-        xyz="0.00964509278679124 9.44866526330912E-05 3.06424748800632E-06"
+        xyz="0.009644 9.3815E-05 3.001E-06"
         rpy="0 0 0" />
       <mass
         value="0.019118" />
       <inertia
-        ixx="3.82E-06"
-        ixy="0"
-        ixz="-2.6E-07"
-        iyy="3.7E-06"
-        iyz="-2.6E-07"
-        izz="9.1E-07" />
+        ixx="3.8183"
+        ixy="-0.0213"
+        ixz="-0.3079"
+        iyy="3.7017"
+        iyz="-0.1998"
+        izz="0.9096" />
     </inertial>
     <visual>
       <origin
@@ -2079,7 +2080,7 @@
       <material
         name="">
         <color
-          rgba="0.890196078431372 0.890196078431372 0.913725490196078 1" />
+          rgba="0.8902 0.8902 0.91373 1" />
       </material>
     </visual>
     <collision>
@@ -2096,8 +2097,8 @@
     name="L_pinky_proximal_joint"
     type="revolute">
     <origin
-      xyz="-0.0282266675554703 -0.012293437629494 -0.0960129830601813"
-      rpy="3.14093869761107 1.46608875997235 3.14094227921624" />
+      xyz="-0.028227 -0.012293 -0.096013"
+      rpy="3.1409 1.4661 3.1409" />
     <parent
       link="l_hand_base_link" />
     <child
@@ -2114,17 +2115,17 @@
     name="L_pinky_intermediate">
     <inertial>
       <origin
-        xyz="0.0160981065679005 0.00118818281307698 -9.37496349673328E-06"
+        xyz="0.016096 0.0011882 -8.4063E-06"
         rpy="0 0 0" />
       <mass
-        value="0.0056868" />
+        value="0.0056869" />
       <inertia
-        ixx="6.6E-07"
-        ixy="0"
-        ixz="-2E-08"
-        iyy="6.2E-07"
-        iyz="-1.4E-07"
-        izz="1.8E-07" />
+        ixx="0.6597"
+        ixy="-0.0138"
+        ixz="-0.0514"
+        iyy="0.6243"
+        iyz="-0.1313"
+        izz="0.1782" />
     </inertial>
     <visual>
       <origin
@@ -2137,7 +2138,7 @@
       <material
         name="">
         <color
-          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -2154,8 +2155,8 @@
     name="L_pinky_intermediate_joint"
     type="revolute">
     <origin
-      xyz="0.0313378020543266 -0.00647627689369765 0"
-      rpy="0 0 -6.79747455421694E-05" />
+      xyz="0.031338 -0.0064763 0"
+      rpy="0 0 -6.7975E-05" />
     <parent
       link="L_pinky_proximal" />
     <child
@@ -2190,9 +2191,8 @@
   <joint name="L_pinky_tip_joint" type="fixed">
     <parent link="L_pinky_intermediate" />
     <child link="L_pinky_tip" />
-    <origin rpy="0 0 0" xyz="0.031 -0.007 0" />
+    <origin rpy="0 0 0" xyz="0.031 -0.0045 0" />
   </joint>
-
 
 
 
@@ -2618,17 +2618,17 @@
     name="r_hand_base_link">
     <inertial>
       <origin
-        xyz="-0.000386127877570155 0.00503962174027214 -0.0449101271034299"
+        xyz="-0.0004953 0.0050417 -0.044939"
         rpy="0 0 0" />
       <mass
         value="0.09995" />
       <inertia
-        ixx="0.00030106"
-        ixy="6E-08"
-        ixz="-3.7E-07"
-        iyy="0.0004068"
-        iyz="-3.2E-07"
-        izz="0.00019218" />
+        ixx="301.0578"
+        ixy="0.3497"
+        ixz="-0.6915"
+        iyy="406.7957"
+        iyz="-0.317"
+        izz="192.1802" />
     </inertial>
     <visual>
       <origin
@@ -2641,7 +2641,7 @@
       <material
         name="">
         <color
-          rgba="0.866666666666667 0.866666666666667 0.890196078431372 1" />
+          rgba="0.86667 0.86667 0.8902 1" />
       </material>
     </visual>
     <collision>
@@ -2658,8 +2658,8 @@
     name="r_hand_base_joint"
     type="fixed">
     <origin
-      xyz="-0.00141711624232485 0 -0.0210000172555634"
-      rpy="0 0 0" />
+      xyz="-0.0014094 0 -0.021"
+      rpy="-6.835E-05 -0.0029196 0" />
     <parent
       link="right_end_effector_link" />
     <child
@@ -2671,17 +2671,17 @@
     name="R_thumb_proximal_base">
     <inertial>
       <origin
-        xyz="0.0110212287050384 -3.32698098642614E-05 -0.000776780774953884"
+        xyz="0.011023 -3.3272E-05 -0.00074447"
         rpy="0 0 0" />
       <mass
         value="0.0094822" />
       <inertia
-        ixx="3E-07"
-        ixy="0"
-        ixz="-4E-08"
-        iyy="9.5E-07"
-        iyz="0"
-        izz="9.7E-07" />
+        ixx="0.2987"
+        ixy="-0.0057"
+        ixz="-0.0395"
+        iyy="0.9492"
+        iyz="0.0055"
+        izz="0.9692" />
     </inertial>
     <visual>
       <origin
@@ -2694,7 +2694,7 @@
       <material
         name="">
         <color
-          rgba="0.890196078431372 0.890196078431372 0.913725490196078 1" />
+          rgba="0.8902 0.8902 0.91373 1" />
       </material>
     </visual>
     <collision>
@@ -2711,14 +2711,14 @@
     name="R_thumb_proximal_yaw_joint"
     type="revolute">
     <origin
-      xyz="0.0219570995851234 0.0155628599102215 -0.0250905219673082"
-      rpy="3.14159265358979 0 0" />
+      xyz="0.021922 0.015502 -0.025153"
+      rpy="3.1416 0 0" />
     <parent
       link="r_hand_base_link" />
     <child
       link="R_thumb_proximal_base" />
     <axis
-      xyz="-1.22100045962969E-05 6.83500415353481E-05 0.999999997589594" />
+      xyz="0 0 1" />
     <limit
       lower="-1.74"
       upper="0"
@@ -2729,17 +2729,17 @@
     name="R_thumb_proximal">
     <inertial>
       <origin
-        xyz="0.0317791766093077 0.00114667119068899 -2.28155954604681E-05"
+        xyz="0.031771 0.0011474 -2.2445E-05"
         rpy="0 0 0" />
       <mass
         value="0.033824" />
       <inertia
-        ixx="1.132E-05"
-        ixy="3E-08"
-        ixz="1.7E-07"
-        iyy="3.419E-05"
-        iyz="1E-08"
-        izz="3.228E-05" />
+        ixx="11.3213"
+        ixy="0.0256"
+        ixz="0.2361"
+        iyy="34.1895"
+        iyz="0.0104"
+        izz="32.277" />
     </inertial>
     <visual>
       <origin
@@ -2752,7 +2752,7 @@
       <material
         name="">
         <color
-          rgba="0.866666666666667 0.866666666666667 0.890196078431372 1" />
+          rgba="0.86667 0.86667 0.8902 1" />
       </material>
     </visual>
     <collision>
@@ -2769,8 +2769,8 @@
     name="R_thumb_proximal_pitch_joint"
     type="revolute">
     <origin
-      xyz="0.0217499931849152 -1.72158354079244E-05 0"
-      rpy="1.57086466715046 1.22641020904056E-05 -0.000791532745143911" />
+      xyz="0.02175 -1.722E-05 6.35E-05"
+      rpy="1.5709 -0.0029195 -0.00079174" />
     <parent
       link="R_thumb_proximal_base" />
     <child
@@ -2787,17 +2787,17 @@
     name="R_thumb_distal">
     <inertial>
       <origin
-        xyz="0.0137334892415782 -0.00277453154609453 -4.9718691799705E-07"
+        xyz="0.013742 -0.0027343 -5.1674E-07"
         rpy="0 0 0" />
       <mass
         value="0.019744" />
       <inertia
-        ixx="9E-07"
-        ixy="0"
-        ixz="9E-08"
-        iyy="2.19E-06"
-        iyz="0"
-        izz="2.33E-06" />
+        ixx="0.8966"
+        ixy="-0.001"
+        ixz="0.0915"
+        iyy="2.1908"
+        iyz="0.0001"
+        izz="2.3291" />
     </inertial>
     <visual>
       <origin
@@ -2810,7 +2810,7 @@
       <material
         name="">
         <color
-          rgba="0.866666666666667 0.866666666666667 0.890196078431372 1" />
+          rgba="0.86667 0.86667 0.8902 1" />
       </material>
     </visual>
     <collision>
@@ -2827,8 +2827,8 @@
     name="R_thumb_distal_joint"
     type="revolute">
     <origin
-      xyz="0.0614443264755605 0.00828219439307844 0"
-      rpy="0 0 1.22100084212751E-05" />
+      xyz="0.061444 0.0082822 0"
+      rpy="0 0 -0.0029196" />
     <parent
       link="R_thumb_proximal" />
     <child
@@ -2865,23 +2865,24 @@
     <child link="R_thumb_tip" />
     <origin rpy="0 0 0" xyz="0.031 0 0" />
   </joint>
+  
 
 
   <link
     name="R_index_proximal">
     <inertial>
       <origin
-        xyz="0.00960002721978334 0.000443602715936658 3.01276850581123E-06"
+        xyz="0.0095995 0.00044318 2.9627E-06"
         rpy="0 0 0" />
       <mass
         value="0.019118" />
       <inertia
-        ixx="3.84E-06"
-        ixy="0"
-        ixz="1.5E-07"
-        iyy="3.71E-06"
-        iyz="1.2E-07"
-        izz="8.7E-07" />
+        ixx="3.8425"
+        ixy="-0.0064"
+        ixz="0.1462"
+        iyy="3.7145"
+        iyz="0.1232"
+        izz="0.8708" />
     </inertial>
     <visual>
       <origin
@@ -2894,7 +2895,7 @@
       <material
         name="">
         <color
-          rgba="0.890196078431372 0.890196078431372 0.913725490196078 1" />
+          rgba="0.8902 0.8902 0.91373 1" />
       </material>
     </visual>
     <collision>
@@ -2911,14 +2912,14 @@
     name="R_index_proximal_joint"
     type="revolute">
     <origin
-      xyz="0.0268347443648602 0.01238126080166 -0.0959877257832576"
-      rpy="-3.14028763091841 1.5184240046093 0.00408527869771669" />
+      xyz="0.026583 0.012307 -0.096064"
+      rpy="-3.1402 1.5214 0.0013813" />
     <parent
       link="r_hand_base_link" />
     <child
       link="R_index_proximal" />
     <axis
-      xyz="0.0012744819545806 0.219189646097979 0.975681441219003" />
+      xyz="0 0 1" />
     <limit
       lower="-1.57"
       upper="0"
@@ -2929,17 +2930,17 @@
     name="R_index_intermediate">
     <inertial>
       <origin
-        xyz="0.0180099074306208 0.00299885189981389 -8.39749152652114E-06"
+        xyz="0.018004 0.0029995 -8.9222E-06"
         rpy="0 0 0" />
       <mass
         value="0.012927" />
       <inertia
-        ixx="2.03E-06"
-        ixy="-1E-08"
-        ixz="9E-08"
-        iyy="2.01E-06"
-        iyz="2.5E-07"
-        izz="3.8E-07" />
+        ixx="2.0343"
+        ixy="-0.0125"
+        ixz="0.0829"
+        iyy="2.0059"
+        iyz="0.2518"
+        izz="0.3763" />
     </inertial>
     <visual>
       <origin
@@ -2952,7 +2953,7 @@
       <material
         name="">
         <color
-          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -2969,7 +2970,7 @@
     name="R_index_intermediate_joint"
     type="revolute">
     <origin
-      xyz="0.0315316061985493 -0.00545507200132231 0"
+      xyz="0.031532 -0.0054551 0"
       rpy="0 0 0" />
     <parent
       link="R_index_proximal" />
@@ -2989,6 +2990,7 @@
   </joint>
 
 
+
   <link name="R_index_tip">
     <visual>
       <origin
@@ -3005,25 +3007,26 @@
   <joint name="R_index_tip_joint" type="fixed">
     <parent link="R_index_intermediate" />
     <child link="R_index_tip" />
-    <origin rpy="0 0 0" xyz="0.038 -0.0038 0" />
+    <origin rpy="0 0 0" xyz="0.038 -0.0015 0" />
   </joint>
+
 
 
   <link
     name="R_middle_proximal">
     <inertial>
       <origin
-        xyz="0.00955705255659736 0.000719184503009201 3.00388766753812E-06"
+        xyz="0.0095562 0.000719 3.0016E-06"
         rpy="0 0 0" />
       <mass
         value="0.019118" />
       <inertia
-        ixx="3.85E-06"
-        ixy="0"
-        ixz="0"
-        iyy="3.72E-06"
-        iyz="6E-08"
-        izz="8.6E-07" />
+        ixx="3.8487"
+        ixy="-0.0002"
+        ixz="-0.0099"
+        iyy="3.7212"
+        iyz="0.0611"
+        izz="0.856" />
     </inertial>
     <visual>
       <origin
@@ -3036,7 +3039,7 @@
       <material
         name="">
         <color
-          rgba="0.890196078431372 0.890196078431372 0.913725490196078 1" />
+          rgba="0.8902 0.8902 0.91373 1" />
       </material>
     </visual>
     <collision>
@@ -3053,8 +3056,8 @@
     name="R_middle_proximal_joint"
     type="revolute">
     <origin
-      xyz="0.00846694447258024 0.0123302974668429 -0.0979909078036594"
-      rpy="-1.75035301585144 1.57072689472437 1.39402168267738" />
+      xyz="0.0082089 0.012307 -0.098014"
+      rpy="-0.023406 1.5679 3.1182" />
     <parent
       link="r_hand_base_link" />
     <child
@@ -3071,17 +3074,17 @@
     name="R_middle_intermediate">
     <inertial>
       <origin
-        xyz="0.0212896407543054 0.00408143996126112 -9.13148789218055E-06"
+        xyz="0.021282 0.0040829 -9.9882E-06"
         rpy="0 0 0" />
       <mass
         value="0.015352" />
       <inertia
-        ixx="3.29E-06"
-        ixy="0"
-        ixz="0"
-        iyy="3.28E-06"
-        iyz="2.2E-07"
-        izz="4.1E-07" />
+        ixx="3.2904"
+        ixy="0.0006"
+        ixz="-0.0078"
+        iyy="3.2834"
+        iyz="0.2227"
+        izz="0.4144" />
     </inertial>
     <visual>
       <origin
@@ -3094,7 +3097,7 @@
       <material
         name="">
         <color
-          rgba="0.866666666666667 0.866666666666667 0.890196078431372 1" />
+          rgba="0.86667 0.86667 0.8902 1" />
       </material>
     </visual>
     <collision>
@@ -3111,7 +3114,7 @@
     name="R_middle_intermediate_joint"
     type="revolute">
     <origin
-      xyz="0.0316616941629307 -0.00464081056853635 0"
+      xyz="0.031662 -0.0046408 0"
       rpy="0 0 0" />
     <parent
       link="R_middle_proximal" />
@@ -3124,7 +3127,7 @@
       upper="0"
       effort="10"
       velocity="0.8" />
-      <mimic
+    <mimic
       joint="R_middle_proximal_joint"
       multiplier="1.131"
       offset="0" />
@@ -3147,25 +3150,26 @@
   <joint name="R_middle_tip_joint" type="fixed">
     <parent link="R_middle_intermediate" />
     <child link="R_middle_tip" />
-    <origin rpy="0 0 0" xyz="0.045 -0.0032 0" />
+    <origin rpy="0 0 0" xyz="0.045 0.0005 0" />
   </joint>
+
 
 
   <link
     name="R_ring_proximal">
     <inertial>
       <origin
-        xyz="0.0096001470731025 0.00044427472300787 2.95897501418479E-06"
+        xyz="0.0095993 0.00044271 2.9621E-06"
         rpy="0 0 0" />
       <mass
         value="0.019117" />
       <inertia
-        ixx="3.84E-06"
-        ixy="0"
-        ixz="-1.6E-07"
-        iyy="3.71E-06"
-        iyz="1.2E-07"
-        izz="8.7E-07" />
+        ixx="3.8404"
+        ixy="0.0065"
+        ixz="-0.1659"
+        iyy="3.7145"
+        iyz="0.1232"
+        izz="0.8729" />
     </inertial>
     <visual>
       <origin
@@ -3178,7 +3182,7 @@
       <material
         name="">
         <color
-          rgba="0.890196078431372 0.890196078431372 0.913725490196078 1" />
+          rgba="0.8902 0.8902 0.91373 1" />
       </material>
     </visual>
     <collision>
@@ -3195,8 +3199,8 @@
     name="R_ring_proximal_joint"
     type="revolute">
     <origin
-      xyz="-0.00999415052356634 0.0122789339975533 -0.0979362638116289"
-      rpy="-0.00278180898871791 1.51844864673705 3.14159265358979" />
+      xyz="-0.010252 0.012307 -0.097905"
+      rpy="0 1.5155 3.1416" />
     <parent
       link="r_hand_base_link" />
     <child
@@ -3213,17 +3217,17 @@
     name="R_ring_intermediate">
     <inertial>
       <origin
-        xyz="0.0180093387957889 0.00300072092575132 -8.8209720389143E-06"
+        xyz="0.018005 0.0029979 -9.3052E-06"
         rpy="0 0 0" />
       <mass
         value="0.012925" />
       <inertia
-        ixx="2.03E-06"
-        ixy="1E-08"
-        ixz="-9E-08"
-        iyy="2.01E-06"
-        iyz="2.5E-07"
-        izz="3.8E-07" />
+        ixx="2.0334"
+        ixy="0.0139"
+        ixz="-0.0913"
+        iyy="2.0059"
+        iyz="0.2517"
+        izz="0.3772" />
     </inertial>
     <visual>
       <origin
@@ -3236,7 +3240,7 @@
       <material
         name="">
         <color
-          rgba="0.298039215686275 0.298039215686275 0.298039215686275 1" />
+          rgba="0.29804 0.29804 0.29804 1" />
       </material>
     </visual>
     <collision>
@@ -3253,7 +3257,7 @@
     name="R_ring_intermediate_joint"
     type="revolute">
     <origin
-      xyz="0.0315320280251494 -0.00545263318234326 0"
+      xyz="0.031531 -0.0054572 0"
       rpy="0 0 0" />
     <parent
       link="R_ring_proximal" />
@@ -3289,7 +3293,7 @@
   <joint name="R_ring_tip_joint" type="fixed">
     <parent link="R_ring_intermediate" />
     <child link="R_ring_tip" />
-    <origin rpy="0 0 0" xyz="0.038 -0.0038 0" />
+    <origin rpy="0 0 0" xyz="0.038 -0.0015 0" />
   </joint>
 
 
@@ -3298,17 +3302,17 @@
     name="R_pinky_proximal">
     <inertial>
       <origin
-        xyz="0.0096385794510781 0.000350820790422174 2.97431465753201E-06"
+        xyz="0.0096436 9.4084E-05 2.9778E-06"
         rpy="0 0 0" />
       <mass
         value="0.019117" />
       <inertia
-        ixx="3.82E-06"
-        ixy="2E-08"
-        ixz="-3.1E-07"
-        iyy="3.7E-06"
-        iyz="2E-07"
-        izz="9.1E-07" />
+        ixx="3.816"
+        ixy="0.0213"
+        ixz="-0.3187"
+        iyy="3.7016"
+        iyz="0.2002"
+        izz="0.9119" />
     </inertial>
     <visual>
       <origin
@@ -3321,7 +3325,7 @@
       <material
         name="">
         <color
-          rgba="0.890196078431372 0.890196078431372 0.913725490196078 1" />
+          rgba="0.8902 0.8902 0.91373 1" />
       </material>
     </visual>
     <collision>
@@ -3338,8 +3342,8 @@
     name="R_pinky_proximal_joint"
     type="revolute">
     <origin
-      xyz="-0.0282607774805067 0.012227983776169 -0.0960113074336258"
-      rpy="-0.248599525552003 1.46275517858851 2.89438415643823" />
+      xyz="-0.028513 0.012307 -0.095926"
+      rpy="-0.00063622 1.4632 3.141" />
     <parent
       link="r_hand_base_link" />
     <child
@@ -3356,17 +3360,17 @@
     name="R_pinky_intermediate">
     <inertial>
       <origin
-        xyz="0.0160982593015231 0.00119063979850093 -9.07695338753234E-06"
+        xyz="0.016096 0.001186 -8.5372E-06"
         rpy="0 0 0" />
       <mass
         value="0.0056869" />
       <inertia
-        ixx="6.6E-07"
-        ixy="1E-08"
-        ixz="-5E-08"
-        iyy="6.2E-07"
-        iyz="1.3E-07"
-        izz="1.8E-07" />
+        ixx="0.6595"
+        ixy="0.0142"
+        ixz="-0.0524"
+        iyy="0.6243"
+        iyz="0.1313"
+        izz="0.1785" />
     </inertial>
     <visual>
       <origin
@@ -3379,7 +3383,7 @@
       <material
         name="">
         <color
-          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -3396,8 +3400,8 @@
     name="R_pinky_intermediate_joint"
     type="revolute">
     <origin
-      xyz="0.0314990327566104 -0.00564011838510353 0"
-      rpy="0 0 0.0263892434774018" />
+      xyz="0.031338 -0.0064763 0"
+      rpy="0 0 6.7954E-05" />
     <parent
       link="R_pinky_proximal" />
     <child
@@ -3432,9 +3436,8 @@
   <joint name="R_pinky_tip_joint" type="fixed">
     <parent link="R_pinky_intermediate" />
     <child link="R_pinky_tip" />
-    <origin rpy="0 0 0" xyz="0.031 -0.007 0" />
+    <origin rpy="0 0 0" xyz="0.031 -0.004 0" />
   </joint>
-
 
 
 
