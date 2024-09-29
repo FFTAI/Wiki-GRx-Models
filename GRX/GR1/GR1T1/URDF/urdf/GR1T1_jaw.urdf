@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- 09122024ver1 -->
+<!-- 09292024-1 -->
 
 <robot
-  name="GR1T1_jaw_simple_coll">
+  name="GR1T1_jaw">
   <link
     name="base_link">
     <inertial>
@@ -1320,6 +1320,26 @@
     <axis xyz="0 1 6.8349E-05" />
     <limit lower="-0.61" upper="0.61" effort="3.95" velocity="27.96" />
   </joint>
+
+
+
+  <link
+    name="left_end_effector_link">
+  </link>
+  <joint
+    name="left_end_effector_joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="left_hand_pitch_link" />
+    <child
+      link="left_end_effector_link" />
+  </joint>
+
+
+
   <link name="left_jaw_link">
     <inertial>
       <origin xyz="0.00012868 0.0043815 -0.034375" rpy="0 0 0" />
@@ -1344,7 +1364,7 @@
   </link>
   <joint name="left_jaw_joint" type="revolute">
     <origin xyz="0 0 -0.061" rpy="0 0 0" />
-    <parent link="left_hand_pitch_link" />
+    <parent link="left_end_effector_link" />
     <child link="left_jaw_link" />
     <axis xyz="1 0 -1.2211E-05" />
     <limit lower="0" upper="1" effort="3.95" velocity="27.96" />
@@ -1718,6 +1738,25 @@
     <axis xyz="0 1 -6.835E-05" />
     <limit lower="-0.61" upper="0.61" effort="3.95" velocity="27.96" />
   </joint>
+
+
+  <link
+    name="right_end_effector_link">
+  </link>
+  <joint
+    name="right_end_effector_joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="right_hand_pitch_link" />
+    <child
+      link="right_end_effector_link" />
+  </joint>
+
+
+
   <link name="right_jaw_link">
     <inertial>
       <origin xyz="-0.00012784 -0.0046548 -0.034339" rpy="0 0 0" />
@@ -1742,7 +1781,7 @@
   </link>
   <joint name="right_jaw_joint" type="revolute">
     <origin xyz="0 0 -0.061" rpy="0 0 0" />
-    <parent link="right_hand_pitch_link" />
+    <parent link="right_end_effector_link" />
     <child link="right_jaw_link" />
     <axis xyz="1 0 1.221E-05" />
     <limit lower="-1" upper="0" effort="3.95" velocity="27.96" />

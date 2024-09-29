@@ -1,3 +1,7 @@
+**2024-09-29**
+- GR1T2_jaw: The `urdf` added `end_effector_link` to align with other `urdf`
+- GR1T1_jaw: The `urdf` added `end_effector_link` to align with other `urdf`
+
 **2024-09-12**
 - GR1T1 name mistake: `left_wrist_roll_jjoint` was accidentally named to `left_wrist_rolll_link` already fixed, version tab `09122024ver1`
 
