@@ -1,4 +1,5 @@
 **2024-10-08**
+- All GR1T1 and GR1T2 has updated new joint limit to align with real situation more corretlyy
 - fourier_hand: The `urdf` updated with fixed inertia error
 - GR1T1_fourier_hand: The `urdf` updated since fourier_hand `urdf` updated with fixed inertia error
 - GR1T2_fourier_hand: The `urdf` updated since fourier_hand `urdf` updated with fixed inertia error

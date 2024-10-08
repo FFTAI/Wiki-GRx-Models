@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- 10082024-1 -->
+<!-- 10082024-2 -->
 
 <robot
   name="GR1T1_fourier_hand">
@@ -1292,8 +1292,8 @@
     <axis
       xyz="1 0 0" />
     <limit
-      lower="-0.61"
-      upper="0.61"
+      lower="-0.87"
+      upper="0.96"
       effort="3.95"
       velocity="27.96" />
   </joint>
@@ -1350,8 +1350,8 @@
     <axis
       xyz="0 1 0" />
     <limit
-      lower="-0.96"
-      upper="0.87"
+      lower="-0.61"
+      upper="0.61"
       effort="3.95"
       velocity="27.96" />
   </joint>
@@ -2533,8 +2533,8 @@
     <axis
       xyz="1 0 0" />
     <limit
-      lower="-0.61"
-      upper="0.61"
+      lower="-0.96"
+      upper="0.87"
       effort="3.95"
       velocity="27.96" />
   </joint>
@@ -2591,8 +2591,8 @@
     <axis
       xyz="0 1 0" />
     <limit
-      lower="-0.96"
-      upper="0.87"
+      lower="-0.61"
+      upper="0.61"
       effort="3.95"
       velocity="27.96" />
   </joint>

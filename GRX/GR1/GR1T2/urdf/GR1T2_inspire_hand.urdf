@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- 09022024-1 -->
+<!-- 10082024-1 -->
 
 <robot
   name="GR1T2_inspire_hand">
@@ -1067,7 +1067,7 @@
       xyz="1 0 0" />
     <limit
       lower="-0.57"
-      upper="3.27"
+      upper="2.53"
       effort="38"
       velocity="9.11" />
   </joint>
@@ -1292,8 +1292,8 @@
     <axis
       xyz="1 0 0" />
     <limit
-      lower="-0.61"
-      upper="0.61"
+      lower="-0.87"
+      upper="0.96"
       effort="3.95"
       velocity="27.96" />
   </joint>
@@ -1350,8 +1350,8 @@
     <axis
       xyz="0 1 0" />
     <limit
-      lower="-0.96"
-      upper="0.87"
+      lower="-0.61"
+      upper="0.61"
       effort="3.95"
       velocity="27.96" />
   </joint>
@@ -2222,7 +2222,7 @@
     <axis
       xyz="1 0 0" />
     <limit
-      lower="-3.27"
+      lower="-2.53"
       upper="0.57"
       effort="38"
       velocity="9.11" />
@@ -2448,8 +2448,8 @@
     <axis
       xyz="1 0 0" />
     <limit
-      lower="-0.61"
-      upper="0.61"
+      lower="-0.96"
+      upper="0.87"
       effort="3.95"
       velocity="27.96" />
   </joint>
@@ -2506,8 +2506,8 @@
     <axis
       xyz="0 1 0" />
     <limit
-      lower="-0.96"
-      upper="0.87"
+      lower="-0.61"
+      upper="0.61"
       effort="3.95"
       velocity="27.96" />
   </joint>
