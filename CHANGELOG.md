@@ -1,3 +1,8 @@
+**2024-10-08**
+- fourier_hand: The `urdf` updated with fixed inertia error
+- GR1T1_fourier_hand: The `urdf` updated since fourier_hand `urdf` updated with fixed inertia error
+- GR1T2_fourier_hand: The `urdf` updated since fourier_hand `urdf` updated with fixed inertia error
+
 **2024-09-29**
 - GR1T1_fourier_hand: The `urdf` updated since fourier_hand `urdf` updated with fixed axis
 - GR1T2_fourier_hand: The `urdf` updated since fourier_hand `urdf` updated with fixed axis
