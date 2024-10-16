@@ -1,3 +1,7 @@
+**2024-10-16**
+- Fourier Hand 6dof: The `urdf` updated with new name, which specified the degree of freedom of the hand. Also, the inertia orientation error has been fixed.
+- GRx: GR1T1 and GR1T2 `urdf` has updated with the new fourier_hand `urdf`
+
 **2024-10-08**
 - All GR1T1 and GR1T2 has updated new joint limit to align with real situation more corretlyy
 - fourier_hand: The `urdf` updated with fixed inertia error
