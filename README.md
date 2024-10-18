@@ -37,10 +37,12 @@ and associated resources to simulate and develop with the GRx robot using popula
 
 ## Model List
 - GR1T1
+    - GR1T1_nohand: The `urdf` for GR1T1 without hand.
     - GR1T1_jaw: The `urdf` for GR1T1 with foueire jaw.
     - GR1T1_fourier_hand: The `urdf` for GR1T1 with fourier hand.
     - GR1T1_inspire_hand: The `urdf` for GR1T1 with inspire hand.
 - GR1T2:
+    - GR1T2_nohand: The `urdf` for GR1T2 without hand.
     - GR1T2_jaw: The `urdf` for GR1T2 with fourier jaw.
     - GR1T2_fourier_hand: The `urdf` for GR1T2 with fourier hand.
     - GR1T2_inspire_hand: The `urdf` for GR1T2 with inspire hand.
