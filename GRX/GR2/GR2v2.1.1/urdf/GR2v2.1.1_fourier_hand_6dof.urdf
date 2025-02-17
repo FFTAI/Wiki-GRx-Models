@@ -3,7 +3,7 @@
 <!-- 12162024-beta-1 -->
 
 <robot
-  name="GR2_foot">
+  name="GR2v2.1.1_fourier_hand_6dof">
   <link
     name="base_link">
     <inertial>

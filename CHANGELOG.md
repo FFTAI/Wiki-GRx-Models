@@ -1,5 +1,8 @@
 **2025-02-17**
-- GRx: all GR1T2 related `urdf` has fixed the inertia for the parallel joint.
+- GRx: 
+    - all GR1T2 related `urdf` has fixed the inertia for the parallel joint.
+    - GR2v3.0.1 has been released
+    - GR2_foot has been renamed to GR2v2.1.1
 
 **2024-12-16**
 - GRx: GR2 `urdf` has been released.
