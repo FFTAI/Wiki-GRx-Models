@@ -1,3 +1,6 @@
+**2025-02-17**
+- GRx: all GR1T2 related `urdf` has fixed the inertia for the parallel joint.
+
 **2024-12-16**
 - GRx: GR2 `urdf` has been released.
 
