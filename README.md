@@ -50,9 +50,11 @@ and associated resources to simulate and develop with the GRx robot using popula
         - GR1T2_inspire_hand: The `urdf` for GR1T2 with inspire hand.
 
 - GR2:
-    - GR2_foot
-        - GR2_foot: GR2 `urdf` with a fake hand.
-        - GR2_foot_fourier_hand_6dof: GR2 `urdf` with fourier hand with 6DOF.
+    - GR2v2.1.1
+        - GR2v2.1.1: GR2v2.1.1 `urdf` with a fake hand.
+        - GR2v2.1.1_fourier_hand_6dof: GR2v2.1.1 `urdf` with fourier hand with 6DOF.
+    - GR2v3.0.1
+        - GR2v3.0.1: GR2v3.0.1 `urdf` with no hand
 
 ## Model Verification
 
