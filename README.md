@@ -1,6 +1,6 @@
 # Wiki-GRx-Models
 
-<img src="./pictures/grmini_model.png" width="300" height="360" />
+<img src="./pictures/grmini1t2.png" width="300" height="300" />
 
 Welcome to the GRx Robot Model Repository!
 This repository provides the Unified Robot Description Format (URDF) files for the GRx robot,
