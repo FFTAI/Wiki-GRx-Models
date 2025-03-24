@@ -1,26 +1,28 @@
+[English](README.en.md) | 简体中文
+
 # Wiki-GRx-Models
 
 <img src="./pictures/grmini1t2.png" width="300" height="300" />
 
-Welcome to the GRx Robot Model Repository!
-This repository provides the Unified Robot Description Format (URDF) files for the GRx robot,
-enabling enthusiasts and developers to explore, modify, and extend the capabilities of this robotic platform.
+欢迎访问GRx机器人模型仓库！
+本仓库提供GRx系列机器人的统一机器人描述格式（URDF）文件，
+助力开发者探索、修改和扩展该机器人平台的功能。
 
-## Model List
+## 模型列表
 
-**GRMini1**:
+**GRMini1系列**:
 
-- GRMini1T2
-    - GRMini1T2_raw: The `urdf` without rotor inertia.
-    - GRMini1T2_rotor: The `urdf` with rotor inertia.
+- GRMini1T2型号
+    - GRMini1T2_raw: 不含转子惯量的基础URDF模型
+    - GRMini1T2_rotor: 包含转子惯量的URDF模型
 
-## Model Verification
+## 模型验证
 
-To verify the model, you can use the `urdf-viz` tool to visualize the robot in 3D.
+推荐使用`urdf-viz`工具进行三维可视化验证：
 
 - https://github.com/openrr/urdf-viz
 
-### Install with Cargo
+### 通过Cargo安装
 
 ```bash
 sudo apt-get install cmake xorg-dev libglu1-mesa-dev
@@ -28,15 +30,15 @@ sudo apt install cargo
 cargo install urdf-viz
 ```
 
-### Display the Model
+### 模型可视化
 
 ```bash
-# Display the GRMini model with fourier hand
+# 显示带傅利叶机械手的GRMini模型
 cd ./GRX/GRMini/GRMini/URDF/urdf
 urdf-viz GRMini.urdf
 ```
 
 ---
 
-Thank you for your interest in the Fourier Intelligence GRx Robot Repositories.
-We hope you find this resource helpful in your robotics projects!
+感谢您对傅利叶智能GRx机器人开源项目的关注！
+希望本资源能为您的机器人开发提供有力支持！
