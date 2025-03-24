@@ -10,15 +10,14 @@ enabling enthusiasts and developers to explore, modify, and extend the capabilit
 
 ## Model List
 
-### GRx Robots
+**GRMini1**:
 
-- GRMini1:
-    - GRMini1T1
-        - GRMini1T1_raw: The `urdf` for GRMini1T1 without rotor inertia.
-        - GRMini1T1_roto: The `urdf` for GRMini1T1 with rotor inertia.
-    - GRMini1T2
-        - GRMini1T2_raw: The `urdf` for GR1T2 without rotor inertia.
-        - GRMini1T2_rotor: The `urdf` for GR1T2 with rotor inertia.
+- GRMini1T1
+    - GRMini1T1_raw: The `urdf` for GRMini1T1 without rotor inertia.
+    - GRMini1T1_roto: The `urdf` for GRMini1T1 with rotor inertia.
+- GRMini1T2
+    - GRMini1T2_raw: The `urdf` for GR1T2 without rotor inertia.
+    - GRMini1T2_rotor: The `urdf` for GR1T2 with rotor inertia.
 
 ## Model Verification
 
