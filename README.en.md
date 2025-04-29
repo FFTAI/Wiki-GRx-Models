@@ -2,7 +2,7 @@
 
 # Wiki-GRx-Models
 
-<img src="./pictures/grmini1t2.png" width="300" height="300" />
+<img src="./pictures/n1.png" width="300" height="300" />
 
 Welcome to the GRx Robot Model Repository!
 This repository provides the Unified Robot Description Format (URDF) files for the GRx robot,
@@ -10,11 +10,10 @@ enabling enthusiasts and developers to explore, modify, and extend the capabilit
 
 ## Model List
 
-**GRMini1**:
+**N1**:
 
-- N1
-    - N1_raw: The `urdf` without rotor inertia.
-    - N1_rotor: The `urdf` with rotor inertia.
+- N1_raw: The `urdf` without rotor inertia.
+- N1_rotor: The `urdf` with rotor inertia.
 
 ## Model Verification
 
