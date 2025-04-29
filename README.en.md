@@ -12,9 +12,9 @@ enabling enthusiasts and developers to explore, modify, and extend the capabilit
 
 **GRMini1**:
 
-- GRMini1T2
-    - GRMini1T2_raw: The `urdf` without rotor inertia.
-    - GRMini1T2_rotor: The `urdf` with rotor inertia.
+- N1
+    - N1_raw: The `urdf` without rotor inertia.
+    - N1_rotor: The `urdf` with rotor inertia.
 
 ## Model Verification
 

@@ -3,7 +3,7 @@
 <!-- 01072025-alpha-1 -->
 
 <robot
-        name="GRMini1T2">
+        name="N1">
     <link
             name="base_link">
         <inertial>

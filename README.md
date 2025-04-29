@@ -2,7 +2,7 @@
 
 # Wiki-GRx-Models
 
-<img src="./pictures/grmini1t2.png" width="300" height="300" />
+<img src="./pictures/n1.png" width="300" height="300" />
 
 欢迎访问GRx机器人模型仓库！
 本仓库提供GRx系列机器人的统一机器人描述格式（URDF）文件，
@@ -10,11 +10,11 @@
 
 ## 模型列表
 
-**GRMini1系列**:
+**N1 系列**:
 
-- GRMini1T2型号
-    - GRMini1T2_raw: 不含转子惯量的基础URDF模型
-    - GRMini1T2_rotor: 包含转子惯量的URDF模型
+- N1 型号
+    - N1_raw: 不含转子惯量的基础URDF模型
+    - N1_rotor: 包含转子惯量的URDF模型
 
 ## 模型验证
 
