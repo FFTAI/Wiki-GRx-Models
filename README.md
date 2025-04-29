@@ -32,9 +32,10 @@ cargo install urdf-viz
 ### 模型可视化
 
 ```bash
-# 显示带傅利叶机械手的GRMini模型
-cd ./GRX/GRMini/GRMini/URDF/urdf
-urdf-viz GRMini.urdf
+cd /path/to/your/project
+
+cd N1/urdf
+urdf-viz N1_raw.urdf
 ```
 
 ---

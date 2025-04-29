@@ -32,9 +32,10 @@ cargo install urdf-viz
 ### Display the Model
 
 ```bash
-# Display the GRMini model with fourier hand
-cd ./GRX/GRMini/GRMini/URDF/urdf
-urdf-viz GRMini.urdf
+cd /path/to/your/project
+
+cd N1/urdf
+urdf-viz N1_raw.urdf
 ```
 
 ---
