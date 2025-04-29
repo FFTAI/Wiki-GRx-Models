@@ -4,8 +4,9 @@
 
 <img src="./pictures/n1.png" width="300" height="300" />
 
-Welcome to the GRx Robot Model Repository!
-This repository provides the Unified Robot Description Format (URDF) files for the GRx robot,
+Welcome to the Fourier GRx Robot Model Repository!
+
+This repository provides the Unified Robot Description Format (URDF) files for the Fourier GRx robot,
 enabling enthusiasts and developers to explore, modify, and extend the capabilities of this robotic platform.
 
 ## Model List

@@ -4,8 +4,9 @@
 
 <img src="./pictures/n1.png" width="300" height="300" />
 
-欢迎访问GRx机器人模型仓库！
-本仓库提供GRx系列机器人的统一机器人描述格式（URDF）文件，
+欢迎访问 Fourier GRx 机器人模型仓库！
+
+本仓库提供 Fourier GRx 系列机器人的统一机器人描述格式（URDF）文件，
 助力开发者探索、修改和扩展该机器人平台的功能。
 
 ## 模型列表
