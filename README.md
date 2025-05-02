@@ -13,8 +13,8 @@
 
 **N1 系列**:
 
-- N1_raw: 不含转子惯量的基础URDF模型
-- N1_rotor: 包含转子惯量的URDF模型
+- N1_raw.urdf: 不含转子惯量的基础 URDF 模型
+- N1_rotor.urdf: 包含转子惯量的 URDF 模型
 
 ## 模型验证
 
