@@ -1,6 +1,6 @@
 [简体中文](README.md) | English
 
-# Wiki-GRx-Models
+# Wiki-GRx-URDF
 
 <img src="./pictures/n1.png" width="300" height="300" />
 
