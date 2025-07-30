@@ -2,7 +2,7 @@
 
 # Wiki-GRx-URDF
 
-<img src="./pictures/n1.png" width="300" height="300" />
+<img src="./pictures/GR2.png" width="300" height="300" />
 
 欢迎访问 Fourier GRx 机器人模型仓库！
 
