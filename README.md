@@ -11,10 +11,10 @@
 
 ## 模型列表
 
-**N1 系列**:
+**GR2 系列**:
 
-- N1_raw.urdf: 不含转子惯量的基础 URDF 模型
-- N1_rotor.urdf: 包含转子惯量的 URDF 模型
+- GR2_raw.urdf: 不含转子惯量的基础 URDF 模型
+- GR2_rotor.urdf: 包含转子惯量的 URDF 模型
 
 ## 模型验证
 
@@ -35,11 +35,11 @@ cargo install urdf-viz
 ```bash
 cd /path/to/your/project
 
-cd N1/urdf
-urdf-viz N1_raw.urdf
+cd GR2/urdf
+urdf-viz GR2_raw.urdf
 ```
 
 ---
 
-感谢您对傅利叶智能 N1 机器人项目的关注！
+感谢您对傅利叶智能 GR2 机器人项目的关注！
 希望本资源能为您的机器人开发提供有力支持！

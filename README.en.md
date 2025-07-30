@@ -11,10 +11,10 @@ enabling enthusiasts and developers to explore, modify, and extend the capabilit
 
 ## Model List
 
-**N1**:
+**GR2**:
 
-- N1_raw: The `urdf` without rotor inertia.
-- N1_rotor: The `urdf` with rotor inertia.
+- GR2_raw: The `urdf` without rotor inertia.
+- GR2_rotor: The `urdf` with rotor inertia.
 
 ## Model Verification
 
@@ -35,11 +35,11 @@ cargo install urdf-viz
 ```bash
 cd /path/to/your/project
 
-cd N1/urdf
-urdf-viz N1_raw.urdf
+cd GR2/urdf
+urdf-viz GR2_raw.urdf
 ```
 
 ---
 
-Thank you for your interest in Fourier's N1 robot project!
+Thank you for your interest in Fourier's GR2 robot project!
 We hope this resource will provide strong support for your robotics development!
