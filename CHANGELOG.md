@@ -1,3 +1,8 @@
+**2025-11-08**
+- GRx:
+    GR2: remove legacy urdf, and updated the most recent urdf.
+    GR3: `urdf` has been released.
+
 **2025-02-17**
 - GRx: 
     - all GR1T2 related `urdf` has fixed the inertia for the parallel joint.
