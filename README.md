@@ -38,16 +38,14 @@ and associated resources to simulate and develop with the GRx robot using popula
 ## Model List
 ### GRx Robots
 - GR1:
-    - GR1T1
-        - GR1T1: The `urdf` for GR1T1 without hand.
-        - GR1T1_jaw: The `urdf` for GR1T1 with foueire jaw.
-        - GR1T1_fourier_hand: The `urdf` for GR1T1 with fourier hand.
-        - GR1T1_inspire_hand: The `urdf` for GR1T1 with inspire hand.
-    - GR1T2
-        - GR1T2: The `urdf` for GR1T2 without hand.
-        - GR1T2_jaw: The `urdf` for GR1T2 with fourier jaw.
-        - GR1T2_fourier_hand: The `urdf` for GR1T2 with fourier hand.
-        - GR1T2_inspire_hand: The `urdf` for GR1T2 with inspire hand.
+    - gr1t1
+        - gr1t1 basic urdf
+        - gr1t1 with dummy hand
+        - gr1t1 with fourier hand 6 dof
+    - gr1t2
+        - gr1t2 basic urdf
+        - gr1t2 with dummy hand
+        - gr1t2 with fourier hand 6 dof
 
 - GR2:
     - gr2v3_8_7
@@ -76,14 +74,9 @@ cargo install urdf-viz
 
 ```bash
 # Display the GR1T1 model with fourier hand
-cd ./GRX/GR1/GR1T1/URDF/urdf
-urdf-viz GR1T1_fourier_hand.urdf
-
-# Display the GR1T2 model with fourier hand
-cd ./GRX/GR1/GR1T2/URDF/urdf
-urdf-viz GR1T2_fourier_hand.urdf
+cd ./GRX/GR1/gr1t1/basic_urdf
+urdf-viz gr1t1.urdf
 ```
-
 
 
 ## MJCF Conversion
